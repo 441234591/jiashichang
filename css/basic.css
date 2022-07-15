@@ -1,0 +1,11 @@
+﻿
+#phoneCarousel{margin:0 auto;position:relative;height: 2.2353rem;width: 5.6471rem;}
+#phoneCarousel .arrow{width: .1824rem;height:.4824rem;position:absolute;top:50%;margin-top:-0.1294rem;left:0;cursor:pointer;}
+#phoneCarousel .previous{background:url(../images/ic_blue_left.png) no-repeat;background-size: cover;}
+#phoneCarousel .next{background-position:right top;left:auto;right:0;background:url(../images/ic_blue_right.png) no-repeat;background-size: cover;}
+#phoneCarousel .arrow:hover{background-position:left bottom;}
+#phoneCarousel .next:hover{background-position:right bottom;}
+#stage{left:50%;margin-left:-2.0588rem;position:absolute;width:4.3412rem;height:2.2353rem;}
+#stage img{width:1.1765rem;height: 1.7647rem;}
+#stage .default{display:block;left:50%;margin-left:-0.7941rem;position:absolute;}
+#stage .animationReady{display:block;position:absolute;top:0;left:0;}

@@ -1,0 +1,234 @@
+#root4{
+    margin-left: .2353rem;
+}
+#root4 .first{
+    width: 23.1529rem;
+    height: 1.3941rem;
+    /* margin: .3529rem auto; */
+    background: rgb(53,171,253, .1);
+    border-radius: .1176rem;
+    display: flex; 
+    align-items: center;
+}
+
+#root4 .second{
+    width: 23.1529rem;
+    height: 3.6118rem;
+    margin: .3529rem auto;
+    background: rgb(53,171,253, .1);
+    border-radius: .1176rem;
+    margin-bottom: .3529rem;
+    display: flex; 
+}
+
+#root4 .third{
+    width: 23.1529rem;
+    height: 5.1588rem;
+    margin: .3529rem auto;
+    background: rgb(53,171,253, .1);
+    border-radius: .1176rem;
+    padding-top: .2471rem;
+    padding-left: .2353rem; 
+}
+
+#root4 .first .item{
+    flex: 1;
+}
+
+#root4 .first .line{
+    width: .0235rem;
+    height: .9294rem;
+    background: #193E6D;
+}
+
+#root4 .item-content{
+    margin-left: .4471rem;
+    margin-right: .6rem;
+}
+
+#root4 .item .title{
+    font-size: .2rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #2FB1FC;
+    line-height: .2118rem;
+
+    background: linear-gradient(0deg, #3AD6C8 0%, #1CC8F6 0%, #4899FD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#root4 .first .item .num{
+    font-size: .5294rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .2824rem;
+}
+
+#root4 .first .item .unit{
+    font-size: .2rem;
+    color: #FFFFFF;
+    line-height: .2118rem;
+    font-family: 'led regular';
+    font-weight: 400;
+}
+
+#root4 .first .item .row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .2647rem;
+}
+
+#root4 .hetong{
+    width: 5.4529rem;
+    padding: .2353rem;
+}
+#root4 .echarts-wrap{
+    flex:1;
+    padding-top: .2529rem;
+}
+
+#root4 .second .des{
+    font-size: .2rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#root4 .second .num{
+    font-size: .4235rem;
+    font-family: 'led regular';
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: .2rem;
+}
+
+#root4 .second .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#root4 .second .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#root4 .hetong .row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: .5529rem;
+}
+
+#root4 .echarts-wrap .title{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .3412rem;
+}
+
+#root4 .echarts{
+    width: 8.4118rem;
+    height: 2.2353rem;
+}
+
+#root4 .echarts-wrap .des{
+    font-size: .1647rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .3412rem;
+    margin-top: .1647rem;
+    margin-bottom: .1824rem;
+    text-align: center;
+}
+
+#root4 .echarts-wrap .des span{
+    margin: 0 .2941rem;
+    font-size: .1647rem;
+}
+
+#root4 .third .content{
+    margin-top: .2765rem;
+}
+
+#root4 .third .one{
+    width: 1.7647rem;
+    height: 4.1rem;
+    background: rgb(17,66,105,.3);
+    border-radius: .1176rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#root4 .third .one .des{
+    font-size: .2rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#root4 .third .one .num{
+    font-size: .4235rem;
+    font-family: 'led regular';
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: .2rem;
+}
+
+#root4 .third .content{
+    display: flex;
+}
+
+#root4 .third .itemline{
+    height: 1.0059rem;
+    width: 20.6118rem;
+    margin-bottom: .4294rem;
+    display: flex;
+}
+
+#root4 .third .right{
+    margin-left: .5412rem;
+}
+
+#root4 .third .right .item{
+    flex: 1;
+}
+
+#root4 .third .title-wrap{
+    display: flex;
+    align-items: center;
+}
+
+#root4 .third .title-wrap .des{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .3412rem;
+    margin-left: .0412rem;
+}
+
+#root4 .third .icon{
+    border: .0882rem solid #000;
+
+    border-top-color: transparent;
+
+    border-bottom-color: transparent;
+
+    border-left-color: white;
+
+    border-right-color: transparent;
+}
+
+#root4 .third .index4_echarts3{
+    width: 6.2235rem;
+    height: .7412rem;
+}

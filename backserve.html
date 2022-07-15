@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 14px;">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+          <link rel="stylesheet" type="text/css" href="css/backserve.css"/>
+</head>
+<body style="overflow: hidden;font-size: 14px;">
+    <!-- <embed type="image/jpg" src="http://static.runoob.com/images/runoob-logo.png" width="258" height="39">
+    <div style="width: 2rem;height:4rem;background-color:red"></div> -->
+    <div id="faceIdMaxBox">
+        <div class="faceIdBox">
+            <p class="main_p21">模板上传</p>
+            <div class="box_12Main">
+                <div class="shootFrontMain_d11">
+                    <!-- <a class="shootFront_a11"> -->
+                    <div class="left">
+                        <input type="hidden" name="img_upload_base" id="img_upload_base"/>
+                        <label for="img_upload_file1">选择文件</label>
+                        <input type="file" name="file" id="img_upload_file1" capture="camera"
+                            multiple="multiple" value=""/>
+                    </div>
+                    
+                    <div class="right">
+                        <input type="text" placeholder="请选择模板文件">
+                        <img src="images/search.png">
+                    </div>
+                    <!-- </a> -->
+                </div>
+     
+            </div>
+
+            <div class="four">
+                <button class="upload_button">上传文件</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/common.js"></script>
+<style>
+
+</style>
+<script>
+var file = null;
+$(".upload_button").on("click",function(){
+    let formdata = new FormData();
+    formdata.append("file",file);
+    $.ajax({
+            url: baseUrl+fileUrl,
+            type: "post",
+            //contentType: 'multipart/form-data',
+            data: formdata,
+            processData: false,
+            contentType: false,
+            success: function (res) {
+                
+                if(res.msg =="SUCCESS"){
+                    alert(res.data);
+                }else{
+                    alert(res.msg)
+                }
+            }
+    });
+})
+$("#img_upload_file1").change(function () {
+    file = this.files[0];
+    $(".right input").val(file.name);
+});
+</script>
+</html>
+
+

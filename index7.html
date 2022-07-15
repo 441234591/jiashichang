@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>成控管理</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/layui.css" />
+    <link rel="stylesheet" type="text/css" href="css/index7.css" />   
+
+
+    
+</head>
+<body>
+    <div class="viewport special">
+        <div class="viewport-content">
+            <div class="page-top">
+                <div class="top-left">
+                    <span class="date_str">2022-05-22 周四</span>
+                    <img id="index1" src="images/image1.png">
+                    <img id="index2" src="images/image2.png">
+                    <img id="index3" src="images/image3.png">
+                    <img id="index4" src="images/image4.png">
+                </div>
+                <div class="top-right"> 
+                    <img id="index5" src="images/image5.png">
+                    <img id="index6" src="images/image6.png">
+                    <img id="index7" src="images/image7_click.png">
+                    <img id="index8" src="images/image8.png">
+                    <span class="time_str">14:30:01</span>
+                </div>
+            </div>
+            <div id="tohome"></div>
+            <div class="page-content">
+                <div class="root" id="root7">
+                    <div class="one-line">
+                        <div class="one-left">
+                            <div class="one-left-top">
+                                <div class="one-left-top-left">
+                                    <div class="title">
+                                        <img class="title_icon" src="images/title_icon.png"/>
+                                        <span>合格供方</span>
+                                    </div>
+                                    <div class="big-des">
+                                        <span class="nomal">总数:</span>
+                                        <span id="index7_gongfang_total" class="num">8082</span>
+                                        <span class="nomal" style=" font-weight: normal;">个</span>
+                                    </div>
+                                    <div class="split-line"></div>
+                                    <div class="right-des">
+                                        <div class="row">
+                                            <div class="row-left">
+                                                <span class="nomal2">跟踪项目:</span>
+                                                <span id="index7_gongfang_gengzong" class="num2">4325</span>
+                                                <span class="nomal22" style=" font-weight: normal;">个</span>
+                                            </div>
+                                            <div class="row-right">
+                                                <span class="nomal2">劳务分包:</span>
+                                                <span id="index7_gongfang_laowu" class="num2">1641</span>
+                                                <span class="nomal22" style=" font-weight: normal;">个</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="row-left">
+                                                <span class="nomal2">设备租赁:</span>
+                                                <span id="index7_gongfang_zhuling" class="num2">1097</span>
+                                                <span class="nomal22" style=" font-weight: normal;">个</span>
+                                            </div>
+                                            <div class="row-right">
+                                                <span class="nomal2">专业分包:</span>
+                                                <span id="index7_gongfang_fenbao" class="num2">4325</span>
+                                                <span class="nomal22" style=" font-weight: normal;">个</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="one-left-top-right">
+                                    <div class="title">
+                                        <img class="title_icon" src="images/title_icon.png"/>
+                                        <span>当年交易金额</span>
+                                    </div>
+                                    <div class="big-des">
+                                        <span class="nomal">总计:</span>
+                                        <span id="index7_total_money" class="num">8082</span>
+                                        <span class="nomal" style=" font-weight: normal;">万元</span>
+                                    </div>
+                                    <div class="split-line"></div>
+                                    <div class="right-des">
+                                        <div class="row">
+                                            <div class="row-left">
+                                                <span class="nomal2">材料采购:</span>
+                                                <span id="index7_dangnian_cailiao" class="num2">9509.5</span>
+                                                <span class="nomal22" style=" font-weight: normal;">万元</span>
+                                            </div>
+                                            <div class="row-right">
+                                                <span class="nomal2">劳务分包:</span>
+                                                <span id="index7_dangnian_laowu" class="num2">2173.6</span>
+                                                <span class="nomal22" style=" font-weight: normal;">万元</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="row-left">
+                                                <span class="nomal2">设备租赁:</span>
+                                                <span id="index7_dangnian_shebei" class="num2">4056.7</span>
+                                                <span class="nomal22" style=" font-weight: normal;">万元</span>
+                                            </div>
+                                            <div class="row-right">
+                                                <span class="nomal2">专业分包:</span>
+                                                <span id="index7_dangnian_zhuanye" class="num2">1520.6</span>
+                                                <span class="nomal22" style=" font-weight: normal;">万元</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="one-left-bottom">
+                                <div class="title-wrap">
+                                    <div class="title">
+                                        <img class="title_icon" src="images/title_icon.png"/>
+                                        <span>累积交易趋势</span>
+                                    </div>
+                                    <div class="bottom-wrap" style="display: none;">
+                                        <div id="index7_top_left_jinger" class="btn_jiner"><span>金额</span></div>
+                                        <div id="index7_top_left_shuliang" class="btn_shuliang" style="margin-left: .0882rem;"><span>数量</span></div>
+                                    </div>   
+                                </div>
+                                <div id="top-left-echart"></div>
+                            </div>
+                        </div>
+                        <div class="one-middle">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>供应商交易排名</span>
+                            </div>
+                            <div class="buttoms-wrap">
+                                <div id="btn_index7_cailiao" class="buttom1 buttom active"><span>材料采购</span></div>
+                                <div id="btn_index7_zhuling" class="buttom2 buttom"><span>设备租赁</span></div>
+                                <div id="btn_index7_laowu" class="buttom3 buttom"><span>劳务分包</span></div>
+                                <div id="btn_index7_zhuanye" class="buttom4 buttom"><span>专业分包</span></div>
+                            </div>
+                            <div class="paihangbang-title-wrap">
+                                <div>
+                                    <span class="fuhao">#</span>
+                                    <span class="nomal">材料采购</span>
+                                </div>
+                                <span class="nomal">金额</span>
+                            </div>
+                            <div class="line"></div>
+                            <div class="marquee-view">
+                                <ul id="marqueeList" class="marquee" >
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">1</span>
+                                            <span class="listtitle">益阳市朝阳王者陶瓷经营部</span>
+                                        </div>
+                                        <span class="listmoney">¥ 12,351,222元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">2</span>
+                                            <span class="listtitle">曲江融奎石材经营部</span>
+                                        </div>
+                                        <span class="listmoney">¥ 10,399,411元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">3</span>
+                                            <span class="listtitle">株洲亿松建材有限公司 </span>
+                                        </div>
+                                        <span class="listmoney">¥ 8,863,846元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">4</span>
+                                            <span class="listtitle">蚌埠市傲宇商贸有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 7,529,162元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">5</span>
+                                            <span class="listtitle">湖南楚盛新材料有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 6,899,632元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">6</span>
+                                            <span class="listtitle">商丘市洁士美建材有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 5,499,222元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">7</span>
+                                            <span class="listtitle">河北奥龙门业有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 5,499,222元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">8</span>
+                                            <span class="listtitle">湖南美屋建筑节能新材料有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 4,349,232元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">9</span>
+                                            <span class="listtitle">蚌埠市旺鑫新材料有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 3,399.222元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">10</span>
+                                            <span class="listtitle">蚌埠市旺鑫新材料有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 3,399.222元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">11</span>
+                                            <span class="listtitle">毛集实验区君记石材加工厂</span>
+                                        </div>
+                                        <span class="listmoney">¥ 1,326,832元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">1</span>
+                                            <span class="listtitle">益阳市朝阳王者陶瓷经营部</span>
+                                        </div>
+                                        <span class="listmoney">¥ 12,351,222元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">2</span>
+                                            <span class="listtitle">曲江融奎石材经营部</span>
+                                        </div>
+                                        <span class="listmoney">¥ 10,399,411元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">3</span>
+                                            <span class="listtitle">株洲亿松建材有限公司 </span>
+                                        </div>
+                                        <span class="listmoney">¥ 8,863,846元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">4</span>
+                                            <span class="listtitle">蚌埠市傲宇商贸有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 7,529,162元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">5</span>
+                                            <span class="listtitle">湖南楚盛新材料有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 6,899,632元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">6</span>
+                                            <span class="listtitle">商丘市洁士美建材有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 5,499,222元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">7</span>
+                                            <span class="listtitle">河北奥龙门业有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 5,499,222元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">8</span>
+                                            <span class="listtitle">湖南美屋建筑节能新材料有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 4,349,232元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">9</span>
+                                            <span class="listtitle">蚌埠市旺鑫新材料有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 3,399.222元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">10</span>
+                                            <span class="listtitle">蚌埠市旺鑫新材料有限公司</span>
+                                        </div>
+                                        <span class="listmoney">¥ 3,399.222元</span>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="indexnum">11</span>
+                                            <span class="listtitle">毛集实验区君记石材加工厂</span>
+                                        </div>
+                                        <span class="listmoney">¥ 1,326,832元</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="one-right">
+                            <div class="title-wrap">
+                                <div class="title">
+                                    <img class="title_icon" src="images/title_icon.png"/>
+                                    <span>清结算累计趋势</span>
+                                </div>
+                                <div class="bottom-wrap" style="display: none;">
+                                    <div id="index7_right_top_jiner" class="btn_jiner"><span>金额</span></div>
+                                    <div id="index7_right_top_shuliang" class="btn_shuliang" style="margin-left: .0882rem;"><span>数量</span></div>
+                                </div>
+                            </div>
+                            <div id="line-qingjie-echart"></div>
+                        </div>
+                    </div>
+                    <div class="two-line">
+                        <div class="two-item" style="margin-right: .3529rem;">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>采购趋势</span>
+                            </div>
+                            <div class="echart" id="echart-left-bottom"></div>
+                        </div>
+                        <div class="two-item" style="margin-right: .3529rem;">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>材料价格趋势</span>
+                            </div>
+                            <div class="echart" id="echart-middle-bottom"></div>
+                        </div>
+                        <div class="two-item">
+                            <div class="title-wrap">
+                                <div class="title">
+                                    <img class="title_icon" src="images/title_icon.png"/>
+                                    <span>分公司清结算累计</span>
+                                </div>
+                                <div class="bottom-wrap" style="display: none;">
+                                    <div id="index7_right_bottom_jiner" class="btn_jiner"><span>金额</span></div>
+                                    <div id="index7_right_bottom_shuliang" class="btn_shuliang" style="margin-left: .0882rem;"><span>数量</span></div>
+                                </div>
+                            </div>
+                            <div class="echart" id="echart-right-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/common.js"></script>
+<script src="js/flexible.js"></script>
+<script src="js/coordinary.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/layui.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/index7.js"></script>
+<script src="js/timeOutGo.js"></script>
+<!-- <script src="js/index7_echarts1.js"></script> -->
+<!-- <script src="js/index7_echarts2.js"></script> -->
+<!-- <script src="js/index7_echarts3.js"></script> -->
+<!-- <script src="js/index8_echartspie.js"></script> -->
+</html>

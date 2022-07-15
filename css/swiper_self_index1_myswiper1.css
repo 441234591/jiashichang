@@ -1,0 +1,172 @@
+
+/* .clearfix::after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix {
+} */
+/* 必要布局样式css */
+#root1 .myswiper1 .swiper-container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 1
+}
+#root1 .myswiper1 .swiper-container-no-flexbox .swiper-slide {
+	float: left
+}
+#root1 .myswiper1 .swiper-container-vertical>.swiper-wrapper {
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column
+}
+#root1 .myswiper1 .swiper-wrapper {
+	position: relative;
+	width: 10%;
+	height: 100%;
+	z-index: 1;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	-ms-transition-property: -ms-transform;
+	transition-property: transform;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+#root1 .myswiper1 .swiper-wrapper {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-o-transform: translate(0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+#root1 .myswiper1 .swiper-slide {
+	-webkit-flex-shrink: 0;
+	-ms-flex: 0 0 auto;
+	flex-shrink: 0;
+	width: 50%;
+	height: 100%;
+	position: relative;
+	padding: 0;
+	-webkit-box-shadow: rgba(0,0,0,.2) 0px 0px 30px;
+	-moz-box-shadow: rgba(0,0,0,.2) 0px 0px 30px;
+	box-shadow: rgba(0,0,0,.2) 0px 0px 30px;
+}
+#root1 .myswiper1 .swiper-button-next, .swiper-button-prev {
+	position: absolute;
+	top: 50%;
+	width: 27px;
+	height: 50px;
+	margin-top: -25px;
+	-moz-background-size: 27px 44px;
+	-webkit-background-size: 27px 44px;
+	background-size: 27px 44px;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#root1 .myswiper1 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+	/* background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+	right: 10px;
+	left: auto */
+}
+#root1 .myswiper1 .swiper-pagination {
+	position: absolute;
+	text-align: center;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	z-index: 10
+}
+#root1 .myswiper1 .swiper-pagination-bullet {
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	border-radius: 100%;
+	background: #000;
+	opacity: .2;
+	margin: 0 5px;
+	cursor: pointer;
+}
+#root1 .myswiper1 .swiper-slide:hover {
+	-webkit-box-shadow: rgba(0,0,0,.5) 0px 0px 50px;
+	-moz-box-shadow: rgba(0,0,0,.5) 0px 0px 50px;
+	box-shadow: rgba(0,0,0,.5) 0px 0px 50px;
+}
+/* .banner-box {
+	width: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+} */
+#root1 .myswiper1 .swiper-container {
+	width: 100%;
+}
+#root1 .myswiper1 .swiper-slide {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	transform: scale(.8);
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	-webkit-transition: transform 1.0s;
+	-moz-transition: transform 1.0s;
+	-ms-transition: transform 1.0s;
+	-o-transition: transform 1.0s;
+	-webkit-transform: scale(0.7);
+	-moz-box-shadow: rgba(0,0,0,.2) 0px 0px 30px;
+}
+#root1 .myswiper1 .swiper-slide-active, .swiper-slide-duplicate-active {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+#root1 .myswiper1 .swiper-slide img {
+	width: 100%;
+	display: block;
+}
+#root1 .myswiper1 .swiper-pagination {
+	position: relative;
+	margin-bottom: 30px;
+}
+#root1 .myswiper1 .swiper-pagination-bullet-active {
+	opacity: 1;
+	background: rgba(0,0,0,.8);
+}
+
+@media screen and (max-width: 668px) {
+#root1 .myswiper1 .swiper-pagination {
+	position: relative;
+	margin-bottom: 20px;
+}
+#root1 .myswiper1 .swiper-pagination-bullet-active {
+	opacity: 1;
+	background: rgba(0,0,0,.8);
+}
+}
+
+#root1 .myswiper1 .swiper-button-prev {
+	/* background: url(../images/ic_right.png) #7c7c7c center 50%/50% 50% no-repeat;
+	left: 10px; */
+}
+#root1 .myswiper1 .swiper-button-next {
+	/* background: url(../images/ic_left.png) #7c7c7c center 50%/50% 50% no-repeat; */
+}

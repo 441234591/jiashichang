@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>湖南五建驾驶舱</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/layui.css" />
+    <link rel="stylesheet" type="text/css" href="css/index4.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="js/swiper/swiper-bundle.min.css" /> -->
+    
+</head>
+<body>
+    <div class="viewport">
+        <div class="viewport-content">
+            <div class="page-top">
+                <div class="top-left">
+                    <span class="date_str">2022-05-22 周四</span>
+                    <img id="index1" src="images/image1.png">
+                    <img id="index2" src="images/image2.png">
+                    <img id="index3" src="images/image3.png">
+                    <img id="index4" src="images/image4_click.png">
+                </div>
+                <div class="top-right"> 
+                    <img id="index5" src="images/image5.png">
+                    <img id="index6" src="images/image6.png">
+                    <img id="index7" src="images/image7.png">
+                    <img id="index8" src="images/image8.png">
+                    <span class="time_str">14:30:01</span>
+                </div>
+            </div>
+            <div id="tohome"></div>
+            <div class="page-content">
+                <div class="root" id="root4">
+                    <div class="first">
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="title">
+                                    <span>中标项目</span>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        <span id="zhongbiaoAcount" class="num">115,556.18</span>  
+                                        <span class="unit">万元</span>    
+                                    </div>
+                                    <div>
+                                        <span id="zhongbiaoNum" class="num">10</span>  
+                                        <span class="unit">个</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="title">
+                                    <span>建设项目</span>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        <span id="jiansheAcount" class="num">865,544.00</span>  
+                                        <span class="unit">万元</span>    
+                                    </div>
+                                    <div>
+                                        <span id="jiansheNum" class="num">5</span>  
+                                        <span class="unit">个</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="title">
+                                    <span>运营项目</span>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        <span id="yunyingAcount" class="num">74,533.00</span>  
+                                        <span class="unit">万元</span>    
+                                    </div>
+                                    <div>
+                                        <span id="yunyingNum" class="num">3</span>  
+                                        <span class="unit">个</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="item">
+                            <div class="item-content">
+                                <div class="title">
+                                    <span>清算项目</span>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        <span id="qingsuanAcount" class="num">32,554.00</span>  
+                                        <span class="unit">万元</span>    
+                                    </div>
+                                    <div>
+                                        <span id="qingsuanNum" class="num">2</span>  
+                                        <span class="unit">个</span>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="hetong">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>合同签订</span>
+                            </div>
+                            <div class="row" style="margin-bottom: .0588rem;">
+                                <div class="left">
+                                    <span class="des">PPP项目总数</span>
+                                    <span id="ppp_total_xiangmu" class="num">10</span>
+                                </div>
+                                <div class="right">
+                                    <span class="des">其他投资类项目总数</span>
+                                    <span id="touzi_total_xiangmu" class="num">7</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="left">
+                                    <span class="des">PPP合同总数</span>
+                                    <span id="ppp_total_hetong" class="num">10</span>
+                                </div>
+                                <div class="right">
+                                    <span class="des">其他投资类合同总数</span>
+                                    <span id="touzi_total_hetong" class="num">6</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="echarts-wrap">
+                            <div class="title">省外项目</div>
+                            <div class="des">
+                                <span id="province_zhongbiao">中标项目7个  12亿</span>
+                                <span id="province_genzong">跟踪项目80个  275亿</span>
+                            </div>
+                            <div id="echarts41" class="echarts"></div>
+                        </div>
+                        <div class="echarts-wrap">
+                            <div class="title">省内项目</div>
+                            <div class="des">
+                                <span id="province_zhongbiao_in">中标项目19个  38亿</span>
+                                <span id="province_genzong_in">跟踪项目268个  502亿</span>
+                            </div>
+                            <div id="echarts42" class="echarts"></div>
+                        </div>
+                    </div>
+                    <div class="third">
+                        <div class="title">
+                            <img class="title_icon" src="images/title_icon.png"/>
+                            <span>SPV</span>
+                        </div>
+                        <div class="content">
+                            <div class="one">
+                                <span class="des">SPV设立数</span>
+                                <span id="spv_num" class="num">10</span>
+                            </div>
+                            <div class="right">
+                                <div class="itemline">
+                                    <div class="item">
+                                        <div class="title-wrap">
+                                            <div class="icon"></div>
+                                            <span class="des">投资完成情况</span>
+                                        </div>
+                                        <div class="index4_echarts3" id="echarts3"></div>
+                                    </div>
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                </div>
+                                <div class="itemline">
+                                    <div class="item">
+                                        <div class="title-wrap">
+                                            <div class="icon"></div>
+                                            <span class="des">资本金到位情况</span>
+                                        </div>
+                                        <div class="index4_echarts3" id="echarts4"></div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title-wrap">
+                                            <div class="icon"></div>
+                                            <span class="des">银行贷款到位情况</span>
+                                        </div>
+                                        <div class="index4_echarts3" id="echarts5"></div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title-wrap">
+                                            <div class="icon"></div>
+                                            <span class="des">其他形式资金到位情况</span>
+                                        </div>
+                                        <div class="index4_echarts3" id="echarts6" style="height: .2706rem;"></div>
+                                    </div>
+                                </div>
+                                <div class="itemline">
+                                    <div class="item">
+                                        <div class="title-wrap">
+                                            <div class="icon"></div>
+                                            <span class="des">投资回收情况</span>
+                                        </div>
+                                        <div class="index4_echarts3" id="echarts7"></div>
+                                    </div>
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/common.js"></script>
+<script src="js/flexible.js"></script>
+<script src="js/coordinary.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/layui.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/index4.js"></script>
+<script src="js/timeOutGo.js"></script>
+<!-- <script src="js/index4_echars1.js"></script> -->
+<!-- <script src="js/index4_echars2.js"></script> -->
+<!-- <script src="js/index4_echars3.js"></script> -->
+</html>

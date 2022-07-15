@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>湖南五建驾驶舱</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/layui.css" />
+    <link rel="stylesheet" type="text/css" href="css/index6.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper_self_index6.css" />   
+</head>
+<body>
+    <div class="viewport special">
+        <div class="viewport-content">
+            <div class="page-top">
+                <div class="top-left">
+                    <span class="date_str">2022-05-22 周四</span>
+                    <img id="index1" src="images/image1.png">
+                    <img id="index2" src="images/image2.png">
+                    <img id="index3" src="images/image3.png">
+                    <img id="index4" src="images/image4.png">
+                </div>
+                <div class="top-right"> 
+                    <img id="index5" src="images/image5.png">
+                    <img id="index6" src="images/image6_click.png">
+                    <img id="index7" src="images/image7.png">
+                    <img id="index8" src="images/image8.png">
+                    <span class="time_str">14:30:01</span>
+                </div>
+            </div>
+            <div id="tohome"></div>
+            <div class="page-content">
+                <div class="root" id="root6">
+                    <div class="one-line">
+                        <div class="left">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>科研课题</span>
+                            </div>
+                            <div class="tabel-wrap">
+                                <div class="top">
+                                    <span>科研课题总数量</span>
+                                </div>
+                                <div class="content" id="index6_keyanketi">
+                                    <div class="item">
+                                        <span class="num">4</span>
+                                        <span class="des">省级及以上</span>
+                                    </div>
+                                    <div class="item">
+                                        <span class="num">4</span>
+                                        <span class="des">集团级</span>
+                                    </div>
+                                    <div class="item">
+                                        <span class="num">4</span>
+                                        <span class="des">企业级</span>
+                                    </div>
+                                    <!-- <div class="item">
+                                        <span class="num">4</span>
+                                        <span class="des">省级</span>
+                                    </div>
+                                    <div class="item">
+                                        <span class="num">4</span>
+                                        <span class="des">国家级</span>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="echart-type" id="echart-index6-1"></div>
+                        </div>
+                        <div class="right">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>科技示范工程</span>
+                            </div>
+                            <div class="tabel-wrap">
+                                <div class="top">
+                                    <span>示范工程数</span>
+                                </div>
+                                <div class="content">
+                                    <div class="item">
+                                        <span class="num">100</span>
+                                        <span class="des">国家级示范工程总量</span>
+                                    </div>
+                                    <div class="item">
+                                        <span class="num">65</span>
+                                        <span class="des">省级示范工程总量</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="echart-type" id="echart-index6-2"></div>
+                        </div>
+                    </div>
+                    <div class="two-line">
+                        <div class="left">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>科研成果</span>
+                            </div>
+                            <div class="keyan-oneline">
+                                <div class="tabel-wrap tabel-wrap-specil">
+                                    <div class="top">
+                                        <span>科研成果总数量</span>
+                                    </div>
+                                    <div class="content">
+                                        <div class="item">
+                                            <span id="keyanchengguo_total" class="num">110</span>
+                                            <!-- <span class="des">受理数量</span> -->
+                                        </div>
+                                        <!-- <div class="item">
+                                            <span class="num">65</span>
+                                            <span class="des">授权数量</span>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="tabel-wrap tabel-wrap-specil" style="margin-left:.3353rem">
+                                    <div class="top">
+                                        <span>工法数量</span>
+                                    </div>
+                                    <div class="content">
+                                        <!-- <div class="item">
+                                            <span class="num">78</span>
+                                            <span class="des">企业级</span>
+                                        </div> -->
+                                        <div class="item">
+                                            <span id="keyanchengguo_workTotal" class="num">55</span>
+                                            <!-- <span class="des">省级</span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="echart-type" id="echart-index6-3"></div>
+                        </div>
+                        <div class="right">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>绿色建造</span>
+                            </div>
+                            <div class="echart-type" id="echart-index6-4"></div>
+                            <div class="echart-type" id="echart-index6-5"></div>
+                        </div>
+                    </div>
+                    <div class="three-line">
+                        <div class="left">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>BIM实施率概况</span>
+                            </div>
+                            <div class="content">
+                                <div class="pai-echarts-wrap">
+                                    <div class="select" style="visibility: hidden;">
+                                        <span class="year">2022</span>
+                                        <img src="images/ic_arrow-down.png">
+                                    </div>
+                                    <div id="pie-echart"></div>
+                                </div>
+                                <div id="bar-echarts-wrap"></div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>软件著作权证书</span>
+                            </div>
+                            <div class="myswiper1">
+                                <img class="swiper-button-prev_self" src="./images/ic_left.png"/>
+                                <div class="swiper-father" id="certify">
+                                    <div class="swiper-container swiper-container1">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide swiper-slide-center none-effect">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/1.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/1.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/2.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/3.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/4.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/5.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/6.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/7.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/8.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/9.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/10.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/11.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/12.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/13.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/14.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/15.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/16.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="javascript:;">
+                                                    <img src="images/zhengshu/17.jpg" about="" title="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img class="swiper-button-next_self" src="./images/ic_right.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/common.js"></script>
+<script src="js/flexible.js"></script>
+<script src="js/coordinary.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/layui.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/index6.js"></script>
+<script src="js/swiper1.min.js"></script>
+<script src="js/timeOutGo.js"></script>
+<!-- <script src="js/jquery.zyslide.js"></script> -->
+<!-- <script src="js/index6_echarts1.js"></script> -->
+<!-- <script src="js/index6_echarts2.js"></script> -->
+<script>
+    window.onload = function() {
+        var swiper = new Swiper('#root6 .swiper-container1',{
+            slidesPerView: 5, //当前选中
+            centeredSlides: true,
+            loop: true,
+            loopedSlides: 5,
+            autoplay: true, //是否自动滚动
+            speed: 500,      //滚动速速
+            autoplayDisableOnInteraction: true,
+            
+            
+            
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            prevButton: '.swiper-button-prev_self', // 左右切换
+            nextButton: '.swiper-button-next_self', // 左右切换
+            onInit: function(swiper) {
+                swiper.slides[5].className = "swiper-slide swiper-slide-active"; //当前选中 状态
+            },
+            breakpoints: {
+                100: {
+                    slidesPerView: 0,
+                }
+            },
+            on: {
+                    progress: function(progress) {
+                        console.log(progress)
+                        console.log(this.slides)
+                        for (i = 0; i < this.slides.length; i++) {
+                            var slide = this.slides.eq(i);
+                            var slideProgress = this.slides[i].progress;
+                            modify = 1;
+                            if (Math.abs(slideProgress) > 1) {
+                                modify = (Math.abs(slideProgress) - 1) * 0.3 + 1;
+                            }
+                            translate = slideProgress * modify * 260 + 'px';
+                            scale = 1 - Math.abs(slideProgress) / 5;
+                            zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
+                            slide.transform('translateX(' + translate + ') scale(' + scale + ')');
+                            slide.css('zIndex', zIndex);
+                            slide.css('opacity', 1);
+                            if (Math.abs(slideProgress) > 3) {
+                                slide.css('opacity', 0);
+                            }
+                        }
+                    },
+                    setTransition: function(transition) {
+                        for (var i = 0; i < this.slides.length; i++) {
+                            var slide = this.slides.eq(i)
+                            slide.transition(transition);
+                        }
+
+                    }
+	        }
+        });
+    }
+    //jQuery.noConflict();
+    // jQuery('.slide').zySlide({speed: 3000,delay: 2000}).css({
+    //     //'backgroundColor': 'red'
+    // })
+    // jQuery('#slide').zySlide({speed: 1000}).css({
+	// 'border': '1px solid #606060',
+	// //'backgroundColor': 'yellow'
+    // });
+</script>
+</html>

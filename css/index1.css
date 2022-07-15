@@ -1,0 +1,319 @@
+#root1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 5.2353rem;   
+}
+#root1 .column{
+    width: 7.9059rem;
+    height: 100%;
+    
+}
+#root1 .column2{
+    width: 6.6235rem;
+    height: 10.8706rem;
+    padding: .2647rem;
+    border-radius: .1176rem;
+    margin: 0 .3588rem;
+    background: rgb(53,171,253, .1);
+}
+
+#root1 .jianjie{
+    width: 7.9059rem;
+    height: 2.5235rem;
+    background: rgb(53,171,253, .1);
+    border-radius: .1176rem;
+    padding: .2353rem;
+}
+
+#root1 .jianjie .content{
+    width: 7.2059rem;
+    height: 1.5941rem;   
+    overflow-y: scroll;
+    margin-top: .2176rem;
+}
+
+#root1 .jianjie .content span{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .3412rem;
+}
+
+#root1 .yaowen{
+    width: 7.9059rem;
+    height: 3.3294rem;
+    background: rgb(53,171,253, .1);
+    border-radius: .1176rem;
+    padding: .2353rem;
+    margin-top: .3529rem;
+    --swiper-navigation-size:0
+}
+
+#root1 .swiper{
+    width: 3.6588rem;
+    height: .8588rem;
+    /* background-color: aqua; */
+    margin: .0588rem auto;
+}
+
+#root1 .yaowen .swiper img{
+    width: 100%;
+    height: 100%;
+}
+#root1 .yaowen .content img{
+    width: .1235rem;
+    height: .1412rem;
+}
+
+#root1 .yaowen span{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .2824rem;
+}
+
+#root1 .yaowen .content{
+    width: 7.2059rem;
+    height: 1.5941rem;   
+    overflow-y: scroll;
+    padding-right: .1765rem;
+}
+#root1 .yaowen .content .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#root1 .content li{
+    height: .3765rem;
+    border-bottom: .0059rem dashed white;
+}
+#root1 .swiper-father{
+    width: 3.6588rem;
+    height: .8588rem;
+    position: relative;
+    /* float: left; */
+	overflow: hidden;
+    margin: 0 auto;
+    --swiper-navigation-size:0
+}
+
+#root1 .myswiper1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.4118rem;
+    height: .8588rem;
+    margin: 0 auto;
+}
+
+#root1 .myswiper2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.7rem;
+    height: 4.7471rem;
+    margin: 0 auto;
+}
+#root1 .myswiper3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.2882rem;
+    height: 4.7471rem;
+    margin: 0 auto;
+}
+#root1 .swiper-father2{
+    width: 6.0647rem;
+    height: 4.7471rem;
+    position: relative;
+    /* float: left; */
+	overflow: hidden;
+    margin: 0 auto;
+    --swiper-navigation-size:0
+}
+#root1 .swiper-father3{
+    width: 6.0647rem;
+    height: 4.7471rem;
+    position: relative;
+    /* float: left; */
+	overflow: hidden;
+    margin: 0 auto;
+    --swiper-navigation-size:0
+}
+#root1 .swiper-container3 .swiper-wrapper{
+    display: flex;
+}
+#root1 .swiper-container3 .page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+#root1 .swiper-container3 .page .row{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#root1 .swiper-container3 .page img{
+    width: 1.3529rem;
+    height: .9235rem;
+}
+
+#root1 .swiper-button-next_self{
+    width: .4882rem;
+    height: .4882rem;
+}
+
+#root1 .swiper-button-prev_self{
+    width: .4882rem;
+    height: .4882rem;
+}
+
+#root1 .myswiper1 .swiper-button-next_self{
+    width: .2353rem;
+    height: .2353rem;
+}
+
+#root1 .myswiper1 .swiper-button-prev_self{
+    width: .2353rem;
+    height: .2353rem;
+}
+#root1 .rengzheng{
+    width: 7.9059rem;
+    height: 4.3118rem;
+    background: rgb(53,171,253, .1);
+    border-radius: .1176rem;
+    padding: .2353rem;
+    margin-top: .3529rem;
+}
+
+#root1 .rengzheng .swiper1{
+    height: 2.2353rem;
+    width: 5.6471rem;
+    margin: .0588rem auto;
+    
+}
+#root1 .rengzheng .content{
+    height: 1.2rem;
+    width: 7.2059rem;
+    overflow-y: scroll;
+    padding-right: .1765rem;
+}
+
+#root1 .rengzheng .content span{
+    font-size: .1647rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .2765rem;
+}
+
+#root1 .lingdao{
+    width: 6.1118rem;
+    height: 4.2118rem;
+    margin-top: .2176rem;
+}
+
+#root1 .title-middle {
+    text-align: center;
+    margin-top: .2588rem;
+}
+
+#root1 .title-middle span{
+    font-size: .2235rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .3941rem;
+}
+
+#root1 .column2 .content{
+    margin-top: .2941rem;
+}
+#root1 .column2 .content span{
+    font-size: .1882rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .3882rem;
+}
+
+#root1 .jiegou{
+    width: 7.9059rem;
+    height: 5.2588rem;
+    background: rgb(53,171,253, .1);
+    border-radius: .1176rem;
+    padding: .2353rem;
+}
+
+#root1 .rongyu{
+    width: 7.9059rem;
+    height: 5.2588rem;
+    background: rgb(53,171,253, .1);
+    border-radius: .1176rem;
+    padding: .2353rem;
+    margin-top: .3529rem;
+}
+
+#root1 .swiper-container2{
+    width: 6.0647rem;
+    height: 4.7471rem;
+    overflow: hidden;
+    margin: -.0588rem auto;
+
+}
+
+#root1 .swiper-container3{
+    width: 6.0647rem;
+    height: 4.7471rem;
+    overflow: hidden;
+    margin: -.0588rem auto;
+}
+
+#root1 .swiper-container2 .swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#root1 .jiangzhunagdes{
+    display: block;
+    width: 1.7647rem;
+    height: .3059rem;
+    font-size: .1353rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    line-height:.1647rem;
+    margin-top: .0941rem;
+    margin-bottom: .2941rem;
+}
+
+#root1 .jiangzhuangwap{
+    width: 2.0647rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* .swiper img{
+    width: 100%;
+    height: 100%;
+} */
+#root1 .marquee-view .marquee {
+    animation: move 15s linear infinite;
+}
+
+@keyframes move {
+    0% {
+
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}

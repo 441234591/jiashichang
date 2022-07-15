@@ -1,0 +1,480 @@
+#root0{
+    margin-top: .1765rem;
+}
+
+#root0 .bg_title{
+	height: .4059rem;
+    width: 5.0118rem;
+	background: url(../images/bg_title.png) no-repeat;
+	background-size: cover;
+	background-position:center;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	margin-top: .0882rem;
+}
+
+#root0 .bg_title div{
+	display: flex;
+	align-items: center;
+}
+
+#root0 .bg_title .year{
+    margin-left: .1882rem;
+}
+
+#root0 .bg_title .zonge{
+    margin-left: .3412rem;
+}
+
+.bg_title .jindukuan{
+    margin-left: .2765rem;
+}
+
+#root0 .bg_title span{
+	font-size: .1765rem;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+#root0 .bg_title .tilte_num{
+	font-family: "led regular";
+    font-size: .2353rem;
+	background: linear-gradient(0deg, #3AD6C8 0%, #1CC8F6 0%, #4899FD 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin-left: .0706rem;
+}
+
+#root0 .bg_title .unit{
+    font-family: "led regular";
+    font-size: .1647rem;
+	background: linear-gradient(0deg, #3AD6C8 0%, #1CC8F6 0%, #4899FD 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    margin-left: .0412rem;
+}
+
+/* .echarts{
+    height: 1.5294rem;
+    margin-top: .1412rem;
+} */
+
+#root0 .proj-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .1882rem;
+}
+#root0 .proj-item{
+    width: 2.4118rem;
+    height: 1.0235rem;
+    border: 0.5px dashed white ;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: .9412rem;
+}
+
+#root0 .one{
+    background:url(../images/proj_num.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#root0 .two{
+    background:url(../images/proj_price.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#root0 .three{
+    background:url(../images/proj_doing.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#root0 .four{
+    background:url(../images/proj_doing_price.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#root0 .echarts2{
+    width:5.6471rem;
+    height: 3.2941rem;
+    margin-left: .5882rem;
+    position: absolute;
+    left: -0.3347rem;
+    /* margin-bottom: .2176rem; */
+}
+
+#root0 .proj-statue{
+    margin-bottom: .1765rem;
+}
+
+#root0 .proj-statue .num{
+    font-size: .3529rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #47FFB3;
+    line-height: .2059rem;
+    background: linear-gradient(0deg, #3AD6C8 0%, #1CC8F6 0%, #4899FD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#root0 .proj-statue .des{
+    font-size: .1529rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .2059rem;
+    margin-top: .0941rem;
+}
+
+#root0 .echarts3{
+    width: 1.6529rem;
+    height: 1.6529rem;
+}
+
+#root0 .zhongbiao_detail div{
+    font-size: .1647rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: .1176rem;
+}
+
+#root0 .zhongbiao_detail .num{
+    font-size: .3529rem;
+    font-family:'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .3647rem;
+    background: linear-gradient(0deg, #3AD6C8 0%, #1CC8F6 0%, #4899FD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: .1235rem;
+}
+
+#root0 .num span{
+    font-size: .2647rem;
+}
+
+#root0 .zhongbiao_detail .label1{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .2059rem;
+}
+
+#root0 .zhongbiao_detail .num1{
+    font-size: .2353rem;
+    font-family:'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .1882rem;
+}
+
+#root0 .zhongbiao_detail .nuit1{
+    font-size: .1882rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .1235rem;
+}
+
+#root0 .zhongbiao_detail .hr-line{
+    height: .0176rem;
+    width: 3.2471rem;
+    background: rgb(53,171,253, .8);
+    margin: .0941rem 0;
+}
+#root0 .zhongbiao-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .1529rem;
+}
+#root0 .zhibiao-line1{
+    margin-bottom: .1529rem;
+}
+
+#root0 .zhibiao-line1 span{
+    
+    font-size: .1647rem;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    color: #FFFFFF;
+}
+#root0 .middleview{
+    width: 10.5882rem;
+    position: relative;
+}
+#root0 .middle-top{
+    display: flex;
+    height: .6176rem;
+    justify-content: space-around;
+    margin-top: .2824rem;
+}
+#root0 .middle-top .top-item{
+    display: flex;
+}
+#root0 .middle-top img{
+    width: .6647rem;
+    height: .6176rem;
+    margin-right: .1412rem;
+}
+
+#root0 .middle-top .num{
+    font-size: .2941rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+#root0 .middle-top .des{
+    font-size: .1529rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    font-style: italic;
+    color: #FFFFFF;
+}
+#root0 .middleview .house{
+    width: 9.7235rem;
+    height: 9.4647rem;
+}
+
+#root0 .middle-bottom{
+    display: flex;
+    position: absolute;
+    /* bottom:0; */
+    bottom: -0.8882rem;
+    align-items: center;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    /* padding: 0 .4rem; */
+}
+#root0 .middle-bottom img{
+    width: 1.4412rem;
+    height: 1.0176rem;
+    margin-right: .2176rem;
+}
+#root0 .middle-bottom .des span{
+    font-size: .1647rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .2588rem;
+    margin-bottom: .0706rem;
+}
+#root0 .middle-bottom a{
+    font-size: .1529rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #16B6FF;
+    /* line-height: .2235rem; */
+}
+#root0 .hege-wrap{
+    background: url(../images/bg_hege.png);
+    background-size: contain;
+    background-position: center;
+    /* width: 5.0294rem; */
+    height: .7294rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .1471rem;
+}
+#root0 .hege-wrap span{
+    font-size: .2353rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .5353rem;
+}
+#root0 .hege-wrap .num{
+    font-size: .3294rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #47FFB3;
+    line-height: .2176rem;   
+    background: linear-gradient(0deg, #3AD6C8 0%, #1CC8F6 0%, #4899FD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: .1647rem;
+}
+
+#root0 .gongfang-detail .row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .1882rem;
+}
+#root0 .gongfang-detail .row-item{
+    display: flex;
+    align-items: center;
+}
+#root0 .row-item div{
+    display: flex;
+    align-items: center;
+}
+#root0 .gongfang-detail .des{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .2059rem;
+}
+#root0 .gongfang-detail .num{
+    font-size: .2353rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .1882rem
+}
+#root0 .gongfang-detail .danwei{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .1235rem;
+}
+
+#root0 #index_jingji_statue{
+    height: 1.8118rem;
+    margin-bottom: .1765rem;
+}
+#root0 #index_zhuzhichengji{
+    height: 2.4118rem;
+    margin-top: .2353rem;
+}
+#root0 #index0_jingyingmubiao{
+    height: 2.3529rem;
+}
+
+#root0 #index_jiaoyinum{
+    height: 1.5353rem;
+}
+
+#root0 .column:nth-child(1){
+    width: 5.0118rem;
+    margin-left: .2353rem;
+} 
+#root0 .column:nth-child(3){
+    width: 5.0118rem;
+    margin-right: .2353rem;
+} 
+
+#root0{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+}
+
+#root0 .echarts9-des{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .1118rem;
+}
+
+#root0 .echarts9-des .des-left{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .2059rem;
+}
+
+#root0 .echarts9-des .unit{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .2059rem;
+}
+
+#root0 .unit2{
+    font-size: .2647rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .3647rem;
+    
+    background: linear-gradient(0deg, #3AD6C8 0%, #1CC8F6 0%, #4899FD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: .1176rem;
+}
+
+#root0 .index_echart_wrap{
+    width: 1.6529rem;
+    height: 1.6529rem;
+    position: relative;
+}
+
+#root0 .index_echart_wrap .title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -0.1588rem;
+    margin-left: -0.3882rem;
+    width: .7706rem;
+    height: .3176rem;
+    font-size: .4rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #12AEFF;
+    background: linear-gradient(0deg, #3AD6C8 0%, #1CC8F6 0%, #4899FD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .ehcarts .inner1{
+    flex: 3;
+    border: 15px solid transparent;
+    border-image-source: url('../images/border.png');
+    border-width: 0.6375rem 0.475rem 0.25rem 0.6375rem;
+    border-image-slice: 51 38 20 132;
+}
+.inner1 div{
+    height:2rem;
+    width: 90%;
+}
+
+.content{
+    position: relative;
+    top: 1.5rem;
+}
+
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    overflow: auto;
+}
+
+.topwrap{
+    background: url(../images/logo.png) no-repeat;
+    background-size: contain;
+    min-height: 780px;
+    position: relative;
+}
+
+#echartBack{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    transform-origin: 50% 100% 0;
+    transform: perspective(300px)  rotateX(69deg);
+    background-image: linear-gradient(0deg, rgba(23,49,84, 1), transparent);
+    position: relative;
+	top:-100%
+}
+*/
+/* html{
+    font-size: 16px;
+} */
+
+
+

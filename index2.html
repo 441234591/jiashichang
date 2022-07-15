@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>湖南五建驾驶舱</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/layui.css" />
+    <link rel="stylesheet" type="text/css" href="css/index2.css" />
+    
+</head>
+<body>
+    <div class="viewport">
+        <div class="viewport-content">
+            <div class="page-top">
+                <div class="top-left">
+                    <span class="date_str">2022-05-22 周四</span>
+                    <img id="index1" src="images/image1.png">
+                    <img id="index2" src="images/image2_click.png">
+                    <img id="index3" src="images/image3.png">
+                    <img id="index4" src="images/image4.png">
+                </div>
+                <div class="top-right"> 
+                    <img id="index5" src="images/image5.png">
+                    <img id="index6" src="images/image6.png">
+                    <img id="index7" src="images/image7.png">
+                    <img id="index8" src="images/image8.png">
+                    <span class="time_str">14:30:01</span>
+                </div>
+            </div>
+            <div id="tohome"></div>
+            <div class="page-content">
+                <div id="root2">
+                    <div class="first">
+                    <div class="first-left">
+                        <div class="title">
+                            <img class="title_icon" src="images/title_icon.png"/>
+                            <span>在职情况</span>
+                        </div>
+                        <div class="left-content">
+                            <div class="top">
+                                <span>在职</span>
+                                <span id="index2_zaizhi_total" class="num">(2017)</span>
+                            </div>
+                            <div class="content">
+                                <div class="content-item">
+                                    <span id="index2_lvzhi" class="num">1922</span>
+                                    <span class="des">履职</span>
+                                </div>
+                                <div class="content-item">
+                                    <span id="index2_waiping" class="num">69</span>
+                                    <span class="des">外聘</span>
+                                </div>
+                                <div class="content-item">
+                                    <span id="index2_daigang" class="num">80</span>
+                                    <span class="des">待岗</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="first-right">
+                        <div class="title">
+                            <img class="title_icon" src="images/title_icon.png"/>
+                            <span>职称证书</span>
+                        </div>
+                        <div class="right-one">
+                            <div class="left">
+                                <div class="top">
+                                    <span>注册类</span>
+                                    <span id="index2_zhuce_total" class="num">(952)</span>
+                                </div>
+                                <ul id="index2_zhuce_list" class="request-block">
+                                    <li>
+                                        <div>
+                                            <span class="num">231</span>
+                                            <span class="des">一级注册建造师</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="num">336</span>
+                                            <span class="des">二级注册建造师</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="num">8</span>
+                                            <span class="des">注册安全工程师</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="num">13</span>
+                                            <span class="des">注册造价工程师</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="num">0</span>
+                                            <span class="des">注册会计师</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="num">3</span>
+                                            <span class="des">一级注册建筑师</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="num">15</span>
+                                            <span class="des">二级注册建筑师</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <span class="num">8</span>
+                                            <span class="des">一级注册结构工程师</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right">
+                                <div class="item cover-item">
+                                    <div class="title">高级职称专业分布</div>
+                                    <div id="index2_gaoji" class="total">总计145本</div>
+                                    <div id="index2_right_top1" class="echarts echarts1"></div>
+                                </div>
+                                
+                                <div class="item cover-item">
+                                    <div class="title">中级职称专业分布</div>
+                                    <div id="index2_zhongji" class="total">总计145本</div>
+                                    <div id="index2_right_top2" class="echarts echarts1"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-two">
+                            <div class="left">
+                                <div class="four-item exception">
+                                    <div class="top">
+                                        <span>职称类</span>
+                                        <span id="index2_zhicheng_total" class="num">(1408)</span>
+                                    </div>
+                                    <ul id="index2_zhicheng_list" class="request-block">
+                                        <li>
+                                            <div>
+                                                <span class="num">123</span>
+                                                <span class="des">正高级职称</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <span class="num">108</span>
+                                                <span class="des">副高级职称</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <span class="num">528</span>
+                                                <span class="des">中级职称</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <span class="num">649</span>
+                                                <span class="des">初级职称</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="four-item">
+                                    <div class="top">
+                                        <span>岗位资格类</span>
+                                        <span id="index2_gangwei_total" class="num">(4552)</span>
+                                    </div>
+                                    <ul id="index2_gangwei_list" class="request-block">
+                                        <li>
+                                            <div>
+                                                <span class="num">2140</span>
+                                                <span class="des">九大员岗位证</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <span class="num">2412</span>
+                                                <span class="des">BIM建模师岗位</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="four-item">
+                                    <div class="top">
+                                        <span>安全生产考核类</span>
+                                        <span id="index2_anquan_total" class="num">(1541)</span>
+                                    </div>
+                                    <ul id="index2_anquan_list" class="request-block">
+                                        <li>
+                                            <div>
+                                                <span class="num">525</span>
+                                                <span class="des">土建</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <span class="num">471</span>
+                                                <span class="des">公路</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <span class="num">545</span>
+                                                <span class="des">水利水电</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="four-item">
+                                    <div class="top">
+                                        <span>其他类</span>
+                                        <span id="index2_qita_total" class="num">(16)</span>
+                                    </div>
+                                    <ul id="index2_qita_list" class="request-block">
+                                        <!-- <li>
+                                            <div>
+                                                <span class="num">5</span>
+                                                <span class="des">其他证书1</span>
+                                            </div>
+                                        </li> -->
+                                        <li>
+                                            <div>
+                                                <span class="num">9</span>
+                                                <span class="des">其他证书2</span>
+                                            </div>
+                                        </li>
+                                        <!-- <li>
+                                            <div>
+                                                <span class="num">2</span>
+                                                <span class="des">其他证书3</span>
+                                            </div>
+                                        </li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="item cover-item">
+                                    <div class="title">一级注册建造师专业分布</div>
+                                    <div id="index2_1lev" class="total">总计145本</div>
+                                    <div id="index2_right_top3" class="echarts echarts1"></div>
+                                </div>
+                                <div class="item cover-item">
+                                    <div class="title">二级注册建造师专业分布</div>
+                                    <div id="index2_2lev" class="total">总计145本</div>
+                                    <div id="index2_right_top4" class="echarts echarts1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                    <div class="second">
+                        <div class="second-item">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>按组织层级分布</span>
+                            </div>
+                            <div class="echarts2" id="index2_left_bottom"></div>
+                        </div>
+                        <div class="second-item">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>按年龄性别分布</span>          
+                            </div>
+                            <div class="echarts2" id="index2_middle_bottom"></div>
+                        </div>
+                        <div class="second-item">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>按学历分布</span>
+                            </div>
+                            <div class="echarts2" id="index2_right_bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="topwrap">
+        <div class="d1">
+            <img src="images/border.png">
+        </div>
+        <span style="font-size: 2rem;">123123</span>
+        <div class="content">
+            <span style="color: #000000;display: inline;font-family: 'led regular';font-size: 26px;">123456</span>
+            <div style="display: flex;" class="ehcarts">
+                <div class="inner1">
+                    <div id="echarts1"></div>
+                </div>
+                <div class="inner1">
+                    <div id="echarts2"></div>
+                </div>
+                <div class="inner1">
+                    <div id="echarts3"></div>
+                </div>
+            </div>
+            <div style="display: flex;" class="ehcarts">
+                <div class="inner1">
+                    <div id="echarts4"></div>
+                </div>
+                <div class="inner1" style="position: relative;">
+                    <div id="echarts5" style="margin:auto"></div>
+                    <div id="echartBack" style="margin:auto"></div>
+                </div>
+                <div class="inner1">
+                    <div class="geo"></div>
+                </div>
+            </div>
+            <div style="display: flex;" class="ehcarts">
+                <div class="inner1">
+                    <div id="echarts6"></div>
+                    
+                </div>
+                <div class="inner1">
+                    <div id="echarts7"></div>
+                </div>
+                <div class="inner1">
+                    <div id="echarts8"></div>
+                </div>
+            </div>
+            <div style="display: flex;" class="ehcarts">
+                <div class="inner1">
+                    <div class="swipe"></div>
+                    
+                </div>
+                <div id="scroll" class="inner1" style="overflow: scroll;height: 200px;background:white;">
+                    <div>
+                        <ul>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                            <li>1</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="inner1">
+                    
+                </div>
+            </div>
+        </div>
+    </div> -->
+</body>
+
+<script src="js/common.js"></script>
+<script src="js/flexible.js"></script>
+<script src="js/coordinary.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/layui.js"></script>
+<script src="js/echarts.min.js"></script>
+<!-- <script src="js/index2_echarts1.js"></script> -->
+<!-- <script src="js/index2_echarts2.js"></script> -->
+<!-- <script src="js/index2_echarts3.js"></script> -->
+<!-- <script src="js/index2_echarts4.js"></script> -->
+<!-- 想使用中国地图必须先引用这个china.js文件 -->
+<script src="js/china.js"></script>
+<!-- 引入我们自己的地图js文件 -->
+<script src="js/map.js"></script>
+<script src="js/promise.js"></script>
+<!-- <script src="js/echarts3.js"></script> -->
+<!--<script src="plugins/libs/js/ol/ol.js"></script>
+<script src="js/openLayers.js"></script>-->
+<!--加载百度地图-->
+<!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=q3ehvFrgzZjWupzVUUYofhTskeYpGe34"></script> -->
+<script src="js/public.js"></script>
+<script src="js/index2.js"></script>
+<script src="js/timeOutGo.js"></script>
+<script>
+    const p = new Promise((resolve,reject)=>{
+        setTimeout(function(){
+            resolve("fail")
+        },100)
+        
+    })
+
+    p.then(function(value){
+        console.log("value1:"+value);
+    },function(reason){
+        console.log("reason1:"+reason)
+    })
+
+    p.then(value2 =>{
+        console.log("value2:"+value2)
+    },reason2 =>{
+        console.log("reason2"+reason2)
+    })
+
+    var a =0;
+    (function(){
+        console.log(a)
+    })();
+
+    function mul(n){
+        if(n==1){
+            return 1;
+        }
+        return n*mul(n-1);
+    }
+
+    var op=mul(5);
+    console.log(op)
+</script>
+</html>

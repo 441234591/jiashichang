@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>财务管理</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/layui.css" />
+    <link rel="stylesheet" type="text/css" href="css/index8.css" />   
+
+</head>
+<body>
+    <div class="viewport special">
+        <div class="viewport-content">
+            <div class="page-top">
+                <div class="top-left">
+                    <span class="date_str">2022-05-22 周四</span>
+                    <img id="index1" src="images/image1.png">
+                    <img id="index2" src="images/image2.png">
+                    <img id="index3" src="images/image3.png">
+                    <img id="index4" src="images/image4.png">
+                </div>
+                <div class="top-right"> 
+                    <img id="index5" src="images/image5.png">
+                    <img id="index6" src="images/image6.png">
+                    <img id="index7" src="images/image7.png">
+                    <img id="index8" src="images/image8_click.png">
+                    <span class="time_str">14:30:01</span>
+                </div>
+            </div>
+            <div id="tohome"></div>
+            <div class="page-content">
+                <div class="root" id="root8">
+                    <div class="first-line">
+                        <div class="first-item">
+                            <span class="title">本年度营业收入</span>
+                            <div class="itemone">
+                                <span class="dollar">¥</span>
+                                <span id="nianduyinye_shouru" class="num">246,360</span>
+                                <span class="unit">万元</span>
+                            </div>
+                            <div class="itemtwo">
+                                <div class="itemtwo-item">
+                                    <span id="nianduyinye_tongbi" class="nomal">同比:12%</span>
+                                    <span id="nianduyinye_icon_tongbi" class="arrow-icon red">&#xea3a;</span>
+                                </div>
+                                <div class="itemtwo-item" style="margin-left: .3353rem;">
+                                    <span id="nianduyingye_huanbi" class="nomal">环比:12%</span>
+                                    <span id="nianduyinye_icon_huanbi" class="arrow-icon red">&#xea3a;</span>
+                                </div>
+                            </div>
+                            <div class="spilt-line"></div>
+                            <div class="itemthree">
+                                <div>
+                                    <span class="nomal">目标:</span>
+                                </div>
+                                <div>
+                                    <span class="nomal">¥</span>
+                                    <span id="nianduyinye_target" class="specil">743,000</span>
+                                    <span class="nomal">万元</span>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="first-item">
+                            <span class="title">本年度回收工程款</span>
+                            <div class="itemone">
+                                <span class="dollar">¥</span>
+                                <span id="back_shouru" class="num">346,993</span>
+                                <span class="unit">万元</span>
+                            </div>
+                            <div class="itemtwo">
+                                <div class="itemtwo-item">
+                                    <span id="back_tongbi" class="nomal">同比:12%</span>
+                                    <span id="back_icon_tongbi" class="arrow-icon red">&#xea3a;</span>
+                                </div>
+                                <div class="itemtwo-item" style="margin-left: .3353rem;">
+                                    <span id="back_huanbi" class="nomal">环比:12%</span>
+                                    <span id="back_icon_huanbi" class="arrow-icon red">&#xea3a;</span>
+                                </div>
+                            </div>
+                            <div class="spilt-line"></div>
+                            <div class="itemthree">
+                                <div>
+                                    <span class="nomal">目标:</span>
+                                </div>
+                                <div>
+                                    <span class="nomal">¥</span>
+                                    <span id="back_target" class="specil">2,000,000</span>
+                                    <span class="nomal">万元</span>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="first-item">
+                            <span class="title">本年度利润总额</span>
+                            <div class="itemone">
+                                <span class="dollar">¥</span>
+                                <span id="lirun_shouru" class="num">15,260</span>
+                                <span class="unit">万元</span>
+                            </div>
+                            <div class="itemtwo">
+                                <div class="itemtwo-item">
+                                    <span id="lirun_tongbi" class="nomal">同比:12%</span>
+                                    <span id="lirun_icon_tongbi" class="arrow-icon red">&#xea3a;</span>
+                                </div>
+                                <div class="itemtwo-item" style="margin-left: .3353rem;">
+                                    <span id="lirun_huanbi" class="nomal">环比:12%</span>
+                                    <span id="lirun_icon_huanbi" class="arrow-icon red">&#xea3a;</span>
+                                </div>
+                            </div>
+                            <div class="spilt-line"></div>
+                            <div class="itemthree">
+                                <div>
+                                    <span class="nomal">目标:</span>
+                                </div>
+                                <div>
+                                    <span class="nomal">¥</span>
+                                    <span id="lirun_target" class="specil">122,000</span>
+                                    <span class="nomal">万元</span>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="first-item">
+                            <span class="title">本年度税费总额</span>
+                            <div class="itemone">
+                                <span class="dollar">¥</span>
+                                <span id="suifei_shouru" class="num">7,332</span>
+                                <span class="unit">万元</span>
+                            </div>
+                            <div class="itemtwo">
+                                <div class="itemtwo-item">
+                                    <span id="suifei_tongbi" class="nomal">同比:-8%</span>
+                                    <span id="suifei_icon_tongbi" class="arrow-icon green">&#xea3e;</span>
+                                </div>
+                                <div class="itemtwo-item" style="margin-left: .3353rem;">
+                                    <span id="suifei_huanbi" class="nomal">环比:-8%</span>
+                                    <span id="suifei_icon_huanbi" class="arrow-icon green">&#xea3e;</span>
+                                </div>
+                            </div>
+                            <div class="spilt-line"></div>
+                            <div class="itemthree">
+                                <div>
+                                    <span class="nomal">目标:</span>
+                                </div>
+                                <div>
+                                    <span class="nomal">¥</span>
+                                    <span id="suifei_target" class="specil">22,083</span>
+                                    <span class="nomal">万元</span>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="two-line">
+                        <div class="left">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>本年度分公司营业收入排名(前十)</span>
+                            </div>
+                            <div id="bar-echarts"></div>
+                        </div>
+                        <div class="right">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>分公司营业收入排名(前十)</span>
+                            </div>
+                            <div id="pie-echarts"></div>
+                        </div>
+                    </div>
+                    <div class="three-line">
+                        <div class="left">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>本年度分公司回收工程款排名(前十)</span>
+                            </div>
+                            <div id="bar-echarts2"></div>
+                        </div>
+                        <div class="right">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>分公司回收工程款排名(前十)</span>
+                            </div>
+                            <div id="pie-echarts2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/common.js"></script>
+<script src="js/flexible.js"></script>
+<script src="js/coordinary.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/layui.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/index8.js"></script>
+<script src="js/timeOutGo.js"></script>
+<!-- <script src="js/index8_echartsbar.js"></script>
+<script src="js/index8_echartspie.js"></script> -->
+</html>

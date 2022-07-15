@@ -1,0 +1,349 @@
+#root7{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-left: .2353rem;
+}
+
+#root7 .one-line{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#root7 .one-right{
+    width: 7.4824rem;
+    height: 5.2588rem;
+    border-radius: .1176rem;
+    background: rgb(53,171,253, .1);
+    padding: .2353rem;
+}
+
+#root7 .one-middle{
+    width: 5.7706rem;
+    height: 5.2588rem;
+    border-radius: .1176rem;
+    background: rgb(53,171,253, .1);
+    margin-right: .3529rem;
+    padding: .2353rem;
+}
+
+#root7 .one-left{
+    width: 9.2rem;
+    height: 5.2588rem;
+    margin-right: .3529rem;
+}
+
+#root7 .one-left-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+#root7 .one-left-top-left{
+    width: 4.4235rem;
+    height: 2.0941rem;
+    background: rgb(53,171,253, .1);
+    padding: .2353rem;
+}
+
+#root7 .one-left-top-right{
+    width: 4.4235rem;
+    height: 2.0941rem;
+    background: rgb(53,171,253, .1);
+    padding: .2353rem;
+}
+
+#root7 .one-left-bottom{
+    width: 9.2rem;
+    height: 2.8118rem;
+    background: rgb(53,171,253, .1);
+    margin-top: .3529rem;
+    padding: .2353rem;
+}
+
+#root7 .two-line{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .3529rem;
+}
+
+#root7 .two-item{
+    width: 7.4824rem;
+    height: 5.2588rem;
+    background: rgb(53,171,253, .1);
+    padding: .2353rem;
+}
+
+#root7 .big-des{
+    display: flex;
+    justify-content: center;
+    margin-top: .1882rem;
+    margin-bottom: .1882rem;
+}
+
+#root7 .big-des .num{
+    font-size: .3529rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-right: .0706rem;
+    margin-left: .1235rem;
+}
+
+#root7 .big-des .nomal{
+    font-size: .2588rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#root7 .split-line{
+    width: 3.9765rem;
+    height: .0235rem;
+    background: rgb(32,78,141, .8);
+}
+
+#root7 .bottom .row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .1941rem;
+}
+
+#root7 .bottom .nomal1{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .2059rem;
+}
+
+#root7 .bottom .num1{
+    font-size: .2353rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .1882rem;
+}
+
+#root7 .right-des .row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .1941rem;
+}
+
+#root7 .right-des .row .nomal2{
+    font-size: .1529rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .1647rem;
+}
+
+#root7 .right-des .row .num2{
+    font-size: .2rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .1471rem;
+    margin-left: .0941rem;
+    margin-right: .0235rem;
+    display: inline-block;
+    width: .5294rem;
+    text-align: end;
+}
+
+#root7 .right-des .row .nomal22{
+    font-size: .1647rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .1rem;
+}
+
+#root7 #echart1{
+    width: 3.9529rem;
+    height: .6176rem;
+}
+
+#root7 .zongji {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#root7 .zongji .zongji-label{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .2059rem;
+}
+
+#root7 .zhongji-num{
+    font-size: .2118rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .1882rem;
+}
+
+#root7 .zhongji-unit{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .1235rem;
+}
+
+#root7 #line-qingjie-echart{
+    width: 7.0118rem;
+    height: 4.6353rem;
+}
+
+#root7 .title-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+#root7 .bottom-wrap{
+    display: flex;
+}
+
+#root7 .bottom-wrap span{
+    font-size: .1529rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#root7 .btn_jiner{
+    width: .6rem;
+    height: .2588rem;
+    background: #1E7DE3;
+    border-radius: .0176rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#root7 .btn_shuliang{
+    width: .6rem;
+    height: .2588rem;
+    border: .0118rem solid #0168C2;
+    border-radius: .0176rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root7 .echart{
+    width: 7.0118rem;
+    height: 4.5941rem;
+}
+
+#root7 #top-left-echart{
+    height:2.0412rem;
+    width: 8.7294rem;
+}
+
+#root7 .buttoms-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .3824rem;
+    margin-bottom: .2765rem;
+}
+
+#root7 .buttom{
+    width: 1.2471rem;
+    height: .3647rem;
+    border-radius: .0588rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #064077;
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .2412rem;
+}
+
+#root7 .buttom span{
+    font-size: .1765rem;
+}
+#root7 .active{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    background: #008BFF;
+    color: #FFFFFF;
+    line-height: .2412rem;
+}
+
+#root7 .paihangbang-title-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#root7 .fuhao{
+    font-size: .2rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .2765rem;
+    margin-right: .2rem;
+}
+
+#root7 .paihangbang-title-wrap .nomal{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .2765rem;
+}
+
+#root7 .line{
+    width: 5.3118rem;
+    height: .0118rem;
+    background: #FFFFFF;
+    margin-top: .1rem;
+    margin-bottom: .1588rem;
+}
+
+#root7 ul{
+    height: 3.0588rem;
+    margin-right: .1176rem;
+}
+#root7 ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#root7 ul li span{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .3412rem;
+}
+
+#root7 .marquee-view{
+    overflow-y: scroll;
+}
+
+#root7 .marquee-view .marquee {
+    animation: move 15s linear infinite;
+}
+
+@keyframes move {
+    0% {
+
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}

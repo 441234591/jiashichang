@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>湖南五建驾驶舱</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/layui.css" />
+    <link rel="stylesheet" type="text/css" href="css/index5.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="js/swiper/swiper-bundle.min.css" /> -->
+    
+</head>
+<body>
+    <div class="viewport">
+        <div class="viewport-content">
+            <div class="page-top">
+                <div class="top-left">
+                    <span class="date_str">2022-05-22 周四</span>
+                    <img id="index1" src="images/image1.png">
+                    <img id="index2" src="images/image2.png">
+                    <img id="index3" src="images/image3.png">
+                    <img id="index4" src="images/image4.png">
+                </div>
+                <div class="top-right"> 
+                    <img id="index5" src="images/image5_click.png">
+                    <img id="index6" src="images/image6.png">
+                    <img id="index7" src="images/image7.png">
+                    <img id="index8" src="images/image8.png">
+                    <span class="time_str">14:30:01</span>
+                </div>
+            </div>
+            <div id="tohome"></div>
+            <div class="page-content">
+                <div class="root" id="root5">
+                    <div class="first">
+                        <div class="left">
+                            <div class="item">
+                                <span class="title">按专业分</span>
+                                <span id="index5_zhuanye" class="des">总计项目100个</span>
+                                <div class="echarts_5 echarts1" id="echarts5_1"></div>
+                            </div>
+                            <div class="item">
+                                <span class="title">按区域分</span>
+                                <span id="index5_quyu" class="des">总计项目79个</span>
+                                <div class="echarts_5" id="echarts5_2"></div>
+                            </div>
+                            <div class="item">
+                                <span class="title">按阶段分</span>
+                                <span id="index5_jieduan" class="des">总计项目74个</span>
+                                <div class="echarts_5" id="echarts5_3"></div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="right-one">
+                                <div class="type-one">
+                                    <div class="top">
+                                        <span>本年度质量考评项目</span>
+                                        <span id="index5_benniandu_total" class="num">(85)</span>
+                                    </div>
+                                    <div class="content">
+                                        <div class="content-item">
+                                            <div id="index5_benniandu_youliang" class="num">73</div>
+                                            <div class="des">优良</div>
+                                        </div>
+                                        <div class="content-item">
+                                            <div id="index5_benniandu_hege" class="num">12</div>
+                                            <div class="des">合格</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="type-two">
+                                    <div class="top">
+                                        <span>上季度质量考评项目</span>
+                                        <span id="index5_shangjidu_total" class="num">(80)</span>
+                                    </div>
+                                    <div class="content">
+                                        <div class="content-item">
+                                            <div id="index5_shangjidu_youliang" class="num">73</div>
+                                            <div class="des">优良</div>
+                                        </div>
+                                        <div class="content-item">
+                                            <div id="index5_shangjidu_hege" class="num">12</div>
+                                            <div class="des">合格</div>
+                                        </div>
+                                        <div class="content-item">
+                                            <div id="index5_shangjidu_youlianglv" class="num">87.5%</div>
+                                            <div class="des">优良率</div>
+                                        </div>
+                                        <div class="content-item">
+                                            <div id="index5_shangjidu_pingjun" class="num">84.5</div>
+                                            <div class="des">平价得分</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="type-one">
+                                    <div class="top">
+                                        <span>本年度安全考评项目</span>
+                                        <span id="index5_anquan_total" class="num">(85)</span>
+                                    </div>
+                                    <div class="content">
+                                        <div class="content-item">
+                                            <div id="index5_anquan_youliang" class="num">73</div>
+                                            <div class="des">优良</div>
+                                        </div>
+                                        <div class="content-item">
+                                            <div id="index5_anquan_hege" class="num">12</div>
+                                            <div class="des">合格</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="type-two">
+                                    <div class="top">
+                                        <span>上季度安全考评项目</span>
+                                        <span id="index5_shangjidu_anquan_total" class="num">(80)</span>
+                                    </div>
+                                    <div class="content">
+                                        <div class="content-item">
+                                            <div id="index5_shangjidu_anquan_youliang" class="num">73</div>
+                                            <div class="des">优良</div>
+                                        </div>
+                                        <div class="content-item">
+                                            <div id="index5_shangjidu_anquan_hege" class="num">12</div>
+                                            <div class="des">合格</div>
+                                        </div>
+                                        <div class="content-item">
+                                            <div id="index5_shangjidu_anquan_youlianglv" class="num">87.5%</div>
+                                            <div class="des">优良率</div>
+                                        </div>
+                                        <div class="content-item">
+                                            <div id="index5_shangjidu_anquan_pingjun" class="num">84.5</div>
+                                            <div class="des">平价得分</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-two">
+                                <div class="column-self">
+                                    <div class="title">
+                                        <span class="des">本年度质量量排名</span>
+                                        <span class="paiming">(前五)</span>
+                                    </div>
+                                    <div>
+                                        <ul class="list">
+                                            <li>
+                                                <div class="oneline oddline">
+                                                    <div class="icon inthree"><span>1</span></div>
+                                                    <span class="text">澧县中厦新城颐苑...</span>
+                                                    <div class="num">80</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline">
+                                                    <div class="icon inthree"><span>2</span></div>
+                                                    <span class="text">永州市零陵区中医...</span>
+                                                    <div class="num">70</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline oddline">
+                                                    <div class="icon inthree"><span>3</span></div>
+                                                    <span class="text">长沙经济技术开发...</span>
+                                                    <div class="num">60</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline">
+                                                    <div class="icon"><span>4</span></div>
+                                                    <span class="text">顺德工业文化体验...</span>
+                                                    <div class="num">50</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline oddline">
+                                                    <div class="icon"><span>5</span></div>
+                                                    <span class="text">临武县2020年易地...</span>
+                                                    <div class="num">40</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="column-self">
+                                    <div class="title">
+                                        <span class="des">本年度质量量排名</span>
+                                        <span class="paiming">(前五)</span>
+                                    </div>
+                                    <div>
+                                        <ul class="list">
+                                            <li>
+                                                <div class="oneline oddline">
+                                                    <div class="icon inthree"><span>1</span></div>
+                                                    <span class="text">澧县中厦新城颐苑...</span>
+                                                    <div class="num">80</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline">
+                                                    <div class="icon inthree"><span>2</span></div>
+                                                    <span class="text">永州市零陵区中医...</span>
+                                                    <div class="num">70</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline oddline">
+                                                    <div class="icon inthree"><span>3</span></div>
+                                                    <span class="text">长沙经济技术开发...</span>
+                                                    <div class="num">60</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline">
+                                                    <div class="icon"><span>4</span></div>
+                                                    <span class="text">顺德工业文化体验...</span>
+                                                    <div class="num">50</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline oddline">
+                                                    <div class="icon"><span>5</span></div>
+                                                    <span class="text">临武县2020年易地...</span>
+                                                    <div class="num">40</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="column-self">
+                                    <div class="title">
+                                        <span class="des">本年度质量量排名</span>
+                                        <span class="paiming">(前五)</span>
+                                    </div>
+                                    <div>
+                                        <ul class="list">
+                                            <li>
+                                                <div class="oneline oddline">
+                                                    <div class="icon inthree"><span>1</span></div>
+                                                    <span class="text">澧县中厦新城颐苑...</span>
+                                                    <div class="num">80</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline">
+                                                    <div class="icon inthree"><span>2</span></div>
+                                                    <span class="text">永州市零陵区中医...</span>
+                                                    <div class="num">70</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline oddline">
+                                                    <div class="icon inthree"><span>3</span></div>
+                                                    <span class="text">长沙经济技术开发...</span>
+                                                    <div class="num">60</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline">
+                                                    <div class="icon"><span>4</span></div>
+                                                    <span class="text">顺德工业文化体验...</span>
+                                                    <div class="num">50</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline oddline">
+                                                    <div class="icon"><span>5</span></div>
+                                                    <span class="text">临武县2020年易地...</span>
+                                                    <div class="num">40</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="column-self">
+                                    <div class="title">
+                                        <span class="des">本年度质量量排名</span>
+                                        <span class="paiming">(前五)</span>
+                                    </div>
+                                    <div class="list">
+                                        <ul>
+                                            <li>
+                                                <div class="oneline oddline">
+                                                    <div class="icon inthree"><span>1</span></div>
+                                                    <span class="text">澧县中厦新城颐苑...</span>
+                                                    <div class="num">80</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline">
+                                                    <div class="icon inthree"><span>2</span></div>
+                                                    <span class="text">永州市零陵区中医...</span>
+                                                    <div class="num">70</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline oddline">
+                                                    <div class="icon inthree"><span>3</span></div>
+                                                    <span class="text">长沙经济技术开发...</span>
+                                                    <div class="num">60</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline">
+                                                    <div class="icon"><span>4</span></div>
+                                                    <span class="text">顺德工业文化体验...</span>
+                                                    <div class="num">50</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="oneline oddline">
+                                                    <div class="icon"><span>5</span></div>
+                                                    <span class="text">临武县2020年易地...</span>
+                                                    <div class="num">40</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="left">
+                            <div class="oneline3">
+                                <div class="oneline3-item1">
+                                    <div class="top">
+                                        <span>历年项目获奖情况</span>
+                                    </div>
+                                    <div class="content">
+                                        <div class="item">
+                                            <span id="index5_huojiang_guojia" class="num">4</span>
+                                            <span class="des">国家级</span>
+                                        </div>
+                                        <div  class="item">
+                                            <span id="index5_huojiang_shengji" class="num">4</span>
+                                            <span class="des">省级</span>
+                                        </div>
+                                        <div  class="item">
+                                            <span id="index5_huojiang_shiji" class="num">4</span>
+                                            <span class="des">市级</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="oneline3-item1">
+                                    <div class="top">
+                                        <span>在建创优目标项目</span>
+                                    </div>
+                                    <div class="content">
+                                        <div class="item">
+                                            <span id="index5_zaijianchuangyou_guojia" class="num">5</span>
+                                            <span class="des">国家级</span>
+                                        </div>
+                                        <div  class="item">
+                                            <span id="index5_zaijianchuangyou_shengji" class="num">8</span>
+                                            <span class="des">省级</span>
+                                        </div>
+                                        <div  class="item">
+                                            <span id="index5_zaijianchuangyou_shiji" class="num">12</span>
+                                            <span class="des">市级</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="oneline3-item2">
+                                    <div class="top">
+                                        <span>QC小组</span>
+                                    </div>
+                                    <div class="content">
+                                        <div class="item">
+                                            <span id="index5_qc_total" class="num">5</span>
+                                            <span class="des">总数</span>
+                                        </div>
+                                        <div  class="item">
+                                            <span id="index5_qc_niandu" class="num">8</span>
+                                            <span class="des">年度</span>
+                                        </div>
+                                        <div  class="item">
+                                            <span id="index5_qc_guojia" class="num">12</span>
+                                            <span class="des">国家级</span>
+                                        </div>
+                                        <div  class="item">
+                                            <span id="index5_qc_shengji" class="num">12</span>
+                                            <span class="des">省级</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="twoline3">
+                                <div>
+                                    <span class="title3">当年施工产值</span>
+                                    <div class="content3">
+                                        <div class="item">
+                                            <span id="index5_shigong_total" class="num">168.00</span>
+                                            <span class="des">当年总产值(亿元)</span>
+                                        </div>
+                                        <div class="item">
+                                            <span id="index5_shangyue" class="num">0.69</span>
+                                            <span class="des">上月产值(亿元)</span>
+                                        </div>
+                                        <div class="item">
+                                            <span id="index5_leiji" class="num">133.69</span>
+                                            <span class="des">年度内累积产值(亿元)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="echarts_5_1" id="echarts_5_1"></div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="title">
+                                <img class="title_icon" src="images/title_icon.png"/>
+                                <span>资质产值(万元)</span>
+                            </div>
+                            <div id="zizhichanzhi" class="four-one">
+                                <div class="item">
+                                    <div class="num">13,349,399</div>
+                                    <div class="des">房建</div>
+                                </div>
+                                <div class="item">
+                                    <div class="num">149,399</div>
+                                    <div class="des">市政</div>
+                                </div>
+                                <div class="item">
+                                    <div class="num">49,399</div>
+                                    <div class="des">钢结构</div>
+                                </div>
+                                <div class="item">
+                                    <div class="num">39,399</div>
+                                    <div class="des">机电</div>
+                                </div>
+                                <div class="item">
+                                    <div class="num">19,399</div>
+                                    <div class="des">土石方</div>
+                                </div>
+                                <div class="item">
+                                    <div class="num">13,399</div>
+                                    <div class="des">其他</div>
+                                </div>
+                            </div>
+                            <div class="four-two">
+                                <div class="four-two-one">
+                                    <div class="four-two-title">本年度分公司上报产值对比(前十)</div>
+                                    <div id="echart-5-four-two"></div>
+                                </div>
+                                <div class="four-two-two">
+                                    <div class="four-two-title">分公司上报产值排名(前十)</div>
+                                    <div>
+                                        <ul id="list_zizhichanzhi">
+                                            <li>
+                                                <div class="item">
+                                                    <div class="itemleft">
+                                                        <div class="icon inthree"><span>1</span></div>
+                                                        <div class="company">直属项目管理公司</div>                                                       
+                                                    </div>
+                                                    <div class="money">7709</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item">
+                                                    <div class="itemleft">
+                                                        <div class="icon inthree"><span>2</span></div>
+                                                        <div class="company">路桥公司</div>                                                       
+                                                    </div>
+                                                    <div class="money">7709</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item">
+                                                    <div class="itemleft">
+                                                        <div class="icon inthree"><span>3</span></div>
+                                                        <div class="company">长沙经营总公司</div>                                                       
+                                                    </div>
+                                                    <div class="money">7709</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item">
+                                                    <div class="itemleft">
+                                                        <div class="icon"><span>4</span></div>
+                                                        <div class="company">湘南分公司</div>                                                       
+                                                    </div>
+                                                    <div class="money">7709</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item">
+                                                    <div class="itemleft">
+                                                        <div class="icon"><span>5</span></div>
+                                                        <div class="company">四川分公司</div>                                                       
+                                                    </div>
+                                                    <div class="money">7709</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item">
+                                                    <div class="itemleft">
+                                                        <div class="icon"><span>6</span></div>
+                                                        <div class="company">湘中分公司</div>                                                       
+                                                    </div>
+                                                    <div class="money">7709</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item">
+                                                    <div class="itemleft">
+                                                        <div class="icon"><span>7</span></div>
+                                                        <div class="company">温州分公司</div>                                                       
+                                                    </div>
+                                                    <div class="money">7709</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item">
+                                                    <div class="itemleft">
+                                                        <div class="icon"><span>8</span></div>
+                                                        <div class="company">广东直属分公司</div>                                                       
+                                                    </div>
+                                                    <div class="money">7709</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item">
+                                                    <div class="itemleft">
+                                                        <div class="icon"><span>9</span></div>
+                                                        <div class="company">直营项目公司</div>                                                       
+                                                    </div>
+                                                    <div class="money">7709</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="item">
+                                                    <div class="itemleft">
+                                                        <div class="icon"><span>10</span></div>
+                                                        <div class="company">岳阳分公司</div>                                                       
+                                                    </div>
+                                                    <div class="money">7709</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/common.js"></script>
+<script src="js/flexible.js"></script>
+<script src="js/coordinary.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/layui.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/index5.js"></script>
+<script src="js/timeOutGo.js"></script>
+<!-- <script src="js/index5_echarts1.js"></script> -->
+<!-- <script src="js/index5_echarts2.js"></script> -->
+<!-- <script src="js/index5_echarts3.js"></script> -->
+</html>

@@ -1,0 +1,437 @@
+#root5{
+    margin-left: .2353rem;
+}
+#root5 .first{
+    width: 23.1412rem;
+    height: 5.2588rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#root5 .second{
+    width: 23.1412rem;
+    height: 5.2588rem;
+    margin-top: .3529rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#root5 .left{
+    width: 11.4rem;
+    height: 5.2588rem;
+    background: rgb(53,171,253, .1);
+}
+
+#root5 .right{
+    width: 11.4rem;
+    height: 5.2588rem;
+    background: rgb(53,171,253, .1);
+    padding: .2353rem;
+}
+
+#root5 .first .left{
+    display: flex;
+    justify-content: space-around;
+} 
+
+#root5 .first .left .item{
+    width: 2.6471rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#root5 .first .item .title{
+    font-size: .2118rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: .3882rem;
+}
+
+#root5 .first .item .des{
+    font-size: .2118rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #08D9FF;
+    margin-top: .1353rem;
+}
+
+#root5 .first .echarts_5{
+    width: 2.7059rem;
+    height: 3.4941rem;
+    margin-top: .4294rem;
+}
+
+#root5 .first .right-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+#root5 .first .type-one{
+    width: 2.2412rem;
+    height: 1.6706rem;
+    background: rgb(17,66,105,.3);
+    border-radius: .1176rem;
+}
+
+#root5 .first .type-two{
+    width: 3.0412rem;
+    height: 1.6706rem;
+    background: rgb(17,66,105,.3);
+    border-radius: .1176rem;
+}
+
+#root5 .top{
+    height: .5176rem;
+    background: rgb(17,66,105,.3);
+    border-top-left-radius: .1176rem;
+    border-top-right-radius: .1176rem;
+    line-height: .5176rem;
+    text-align: center;
+}
+
+#root5 .top span{
+    font-size: .1882rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .2118rem;
+}
+
+#root5 .top .num{
+    color: #08D9FF;
+    font-size: .1765rem;
+    line-height: .2118rem;
+}
+#root5 .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: .2706rem;
+}
+
+#root5 .content-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#root5 .content-item .num{
+    font-size: .3647rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#root5 .content-item .des{
+    font-size: .1647rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: .1941rem;
+}
+
+#root5 .column-self{
+    width: 2.5294rem;
+    height: 2.7765rem;
+    margin-top: .2882rem;
+    margin-right: .2765rem;
+}
+
+#root5 .column-self .title .des{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .3412rem;
+}
+
+#root5 .column-self .title .paiming{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .3412rem;
+    margin-left: .0647rem;
+}
+
+#root5 .column-self .icon{
+    width: .1824rem;
+    height: .1824rem;
+    background: #11456F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: .1059rem;
+}
+
+#root5 .column-self .icon span{
+    font-size: .1294rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#root5 .column-self .text{
+    font-size: .1176rem;/*30->20*/
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .4882rem;
+    width: 1.5941rem;
+    overflow:hidden;
+    white-space:nowrap;
+    /*文字超出宽度则显示ellipsis省略号*/
+    text-overflow:ellipsis;
+    margin-left: .1059rem;
+}
+
+#root5 .column-self .num{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .4882rem;
+    margin-left: .2353rem;
+    margin-right: .1059rem;
+}
+
+#root5 .inthree{
+    background: #229FDF!important;
+}
+
+#root5 .oddline{
+    background: rgb(17,66,105,.5);
+}
+
+#root5 .column-self .oneline{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#root5 .right-two{
+    display: flex;
+    align-items:flex-start;
+    justify-content: start;
+}
+
+#root5 .second .left{
+    padding: .2353rem;
+}
+#root5 .oneline3{
+    display: flex;
+    height: 1.6706rem;
+    width: 10.9294rem;
+}
+
+#root5 .oneline3-item1{
+    width: 3.1765rem;
+    margin-right: .1824rem;
+    background: rgb(17,66,105,.3);
+    border-radius: .1176rem;
+}
+
+#root5 .oneline3-item2{
+    width: 4.2294rem;
+    background: rgb(17,66,105,.3);
+    border-radius: .1176rem;
+}
+
+#root5 .twoline3{
+    display: flex;
+    justify-content: start;
+}
+#root5 .twoline3 .num{
+    font-size: .2941rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#root5 .twoline3 .des{
+    font-size: .1412rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: .1059rem;
+}
+
+#root5 .twoline3 .title3{
+    display: block;
+    font-size: .2rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: .2529rem;
+    margin-bottom: .2176rem;
+}
+
+#root5 .twoline3 .content3{
+    width: 1.8824rem;
+    height: 2.3882rem;
+    background: rgb(17,66,105,.3);
+    border-radius: .1176rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#root5 .twoline3 .content3 .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#root5 .echarts_5_1{
+    height: 2.8059rem;
+    width: 8.6706rem;
+    margin-left: .3765rem;
+    margin-top: .2529rem;
+}
+
+#root5 .four-one{
+    width: 10.9294rem;
+    margin-top: .1294rem;
+    height: .8rem;
+    margin: 0 auto;
+    background: rgb(17,66,105,.2);
+    border-radius: .0588rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+#root5 .four-one .item{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+#root5 .four-one .num{
+    font-size: .2706rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: .1882rem;
+}
+
+#root5 .four-one .des{
+    font-size: .1647rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: .0882rem;
+}
+
+#root5 .four-two{
+    display: flex;
+    justify-content: start;
+    height: 5.2647rem;
+}
+
+#root5 .four-two-one{
+    width: 7.4529rem;
+}
+#root5 .four-two .four-two-two{
+    margin-left: .3882rem;
+    width: 2.8706rem;
+}
+
+#root5 .four-two-title{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .3412rem;
+    margin-top: .2059rem;
+    margin-bottom: .1765rem;
+}
+
+#root5 .four-two-two .icon{
+    width: .1824rem;
+    height: .1824rem;
+    background: #11456F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: .1059rem;
+}
+
+#root5 .four-two-two .icon span{
+    font-size: .1294rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#root5 .four-two-two .company{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    overflow:hidden;
+    white-space:nowrap;
+    /*文字超出宽度则显示ellipsis省略号*/
+    text-overflow:ellipsis;
+    margin-left: .1059rem;
+}
+
+#root5 .four-two-two .money{
+    font-size: .1765rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#root5 .four-two-two .inthree{
+    background: #FA8D18!important;
+}
+
+#root5 .four-two-two .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .1471rem;
+    height: .1824rem;
+}
+#root5 .itemleft{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#root5 #echart-5-four-two{
+    height: 3.1118rem;
+    width: 7.4529rem;
+}
+
+#root5 .oneline3 .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#root5 .oneline3 .num{
+    font-size: .3647rem;
+    font-family: 'led regular';
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#root5 .oneline3 .des{
+    font-size: .1647rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: .1941rem;
+}

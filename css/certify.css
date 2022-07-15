@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+#certify {
+	position: relative;
+	width: 7.0588rem;
+	margin: 0 auto
+}
+
+#certify .swiper-container {
+	padding-bottom: .3529rem;
+}
+
+#certify  .swiper-slide {
+	width: 3.0588rem;
+	height: 2.4rem;
+	background: #fff;
+	box-shadow: 0 .0471rem .1765rem #ddd;
+}
+#certify  .swiper-slide img{
+	display:block;
+}
+#certify  .swiper-slide p {
+	line-height: .5765rem;
+	padding-top: 0;
+	text-align: center;
+	color: #636363;
+	font-size: 1.1em;
+	margin: 0;
+}
+
+#certify .swiper-pagination {
+	width: 100%;
+	bottom: .1176rem;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 .0294rem;
+	border: .0176rem solid #fff;
+	background-color: #d5d5d5;
+	width: .0588rem;
+	height: .0588rem;
+	opacity: 1;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+	border: .0176rem solid #00aadc;
+	background-color: #fff;
+}
+
+#certify .swiper-button-prev {
+	left: -0.1765rem;
+	width: .2647rem;
+	height: .2647rem;
+	background: url(../images/ic_blue_left.png) no-repeat;
+	background-position: 0 0;
+	background-size: 100%;
+}
+
+#certify .swiper-button-prev:hover {
+	background-position: 0 -0.2706rem;
+	background-size: 100%
+}
+
+#certify .swiper-button-next {
+	right: -0.1765rem;
+	width: .2647rem;
+	height: .2647rem;
+	background: url(../images/ic_blue_right.png) no-repeat;
+	background-position: 0 -0.5471rem;
+	background-size: 100%;
+}
+
+#certify .swiper-button-next:hover {
+	background-position: 0 -0.8176rem;
+	background-size: 100%
+}
